@@ -7,6 +7,11 @@ public class AdditionFormula {
         Scanner scanner = new Scanner(System.in);
 
         // write your program here
+        System.out.println("Give the first number:");
+        Integer firstInteger = Integer.valueOf(scanner.nextLine());
+        System.out.println("Give the second number:");
+        Integer secondInteger = Integer.valueOf(scanner.nextLine());
+        System.out.println(firstInteger + " + " + secondInteger + " = " + (firstInteger+secondInteger));
 
     }
 }
