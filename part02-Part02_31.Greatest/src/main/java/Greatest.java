@@ -3,8 +3,8 @@ public class Greatest {
 
     public static int greatest(int number1, int number2, int number3) {
         //write some code here
-
-        return -1;
+        int largest = Math.max(number1, Math.max(number2, number3));
+        return largest;
     }
 
     public static void main(String[] args) {
@@ -12,3 +12,17 @@ public class Greatest {
         System.out.println("Greatest: " + result);
     }
 }
+
+    // public static int greatest(int number1, int number2, int number3) {
+    //     //write some code here
+    //     int greatest = number1;
+    //     if (number2 > greatest) {
+    //         greatest = number2;
+    //     }
+    //     if (number3 > greatest) {
+    //         greatest = number3;
+    //     }
+    //     return greatest;
+ 
+    // }
+    // model solution
